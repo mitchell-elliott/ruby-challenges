@@ -29,16 +29,16 @@ Your ruby version: 2.6.0
     * Expected:   tomtom         
     * Actual:
 3. "tom" + 1
-    * Expected:            
-    * Actual:
+    * Expected:tomtom            
+    * Actual: fail - no implicit conversion of integer into string
 4. "tom" / 2
-    * Expected:            
-    * Actual:
+    * Expected: fail        
+    * Actual:  fail - undefined method
 
 ## Calculations in IRB
 1. How many hours are in a year?
-    * Answer:
+    * Answer: 24 * 365 = 8760
 2. How many minutes are in a decade?
-    * Answer:
+    * Answer: 60 * 24 * 365 * 10 = 5256000
 3. How many seconds old are you?
-    * Answer:
+    * Answer: (Time.new)-(Time.local(1991, 11, 12))
