@@ -1,32 +1,32 @@
 # Ruby Intro Answer Sheet
 
 ## Check your ruby version
-Your ruby version: 
+Your ruby version: 2.6.0
 
 ## Floats and integers 
 1. 3.0 / 2
-    1. Expected (integer or float):      
-    2. Actual (integer or float):
-    3. Answer: 
+    1. Expected (integer or float):    float  
+    2. Actual (integer or float): float
+    3. Answer: 1.5
 2. 3 / 2.0
-    1. Expected (integer or float):      
-    2. Actual (integer or float):
-    3. Answer: 
+    1. Expected (integer or float):   float   
+    2. Actual (integer or float): float
+    3. Answer: 1.5
 3. 4 ** 2.0
-    1. Expected (integer or float):      
-    2. Actual (integer or float):
-    3. Answer: 
+    1. Expected (integer or float):  integer        
+    2. Actual (integer or float): float
+    3. Answer: 8.0
 4. 4.1 % 2
-    1. Expected (integer or float):      
-    2. Actual (integer or float):
-    3. Answer: 
+    1. Expected (integer or float):   float   
+    2. Actual (integer or float): float
+    3. Answer: 0.999999994
 
 ## Strings
 1. "tom" * 3
-    * Expected:            
-    * Actual:
+    * Expected:  tom tom tom          
+    * Actual: tomtomtom
 2. "tom" + "tom"
-    * Expected:            
+    * Expected:   tomtom         
     * Actual:
 3. "tom" + 1
     * Expected:            
